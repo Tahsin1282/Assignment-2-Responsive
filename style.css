@@ -158,27 +158,26 @@ span {
     text-align: center;
 }
 
+#des-text{
+    justify-content: center;
+    width: 50%;
+    margin: auto ;
+}
+
 .img-set {
     width: 81.25%;
     margin: auto;
-
 }
 
-.row {
-
+.row-1, .row-2, .row-3 {
     display: flex;
-    float: left;
     justify-content: center;
     align-items: center;
     height: 300px;
-    margin-top: 6px;
-
+    margin-top: 12px;
 }
 
-.row img {
-
-    width: 100%;
-}
+.break{display: none;}
 
 .container {
     position: relative;
@@ -194,6 +193,13 @@ span {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
+}
+
+/* Choose us */
+
+.choose-us{
+    position: relative;
+    top: 50px;
 }
 
 
@@ -247,9 +253,10 @@ span {
 
     .head-input {
         flex-direction: column;
-        /* justify-content: center; */
+        justify-content: center;
         align-items: center;
         padding: 20px;
+        width: 255px;
 
     }
 
@@ -273,6 +280,39 @@ span {
     }
 
     /* MQ Popular tour end */
+    /* MQ Destination Start */
+
+    #des-text{width:80%; font-size: 0.8rem;}
+
+    .row-1, .row-2, .row-3 {flex-direction: column;}
+
+    .row-2, .row-3{
+        position: relative;
+        top:200px;
+    }
+    
+    .container img{
+        position: relative;
+        top:50px;
+        width:480px;
+        height: 175px;
+    }
+
+    .try{top:65%}
+
+    #des-box{text-align: center;}
+
+    /*MQ Choose us */
+
+    .choose-us{
+        position: relative;
+        top: 330px;
+    }
+
+        
+
+
+
 
 
 
