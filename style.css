@@ -349,9 +349,10 @@ footer {
     border: 2px solid red;
     position: relative;
     top: 180px;
+    width: 100%;
     height: 400px;
-    /* align-items: center;
-    justify-content: center; */
+    background: rgba(19, 19, 24, 0.05);
+
 }
 
 .foot {
@@ -372,17 +373,14 @@ footer {
 
 .line {
     position: relative;
-    left: 15%;
+    left: 25%;
 }
 
 .l-1 {
     color: #5A5A5D;
     text-align: center;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 26px
 }
 
 .icon {
@@ -558,6 +556,18 @@ footer {
     }
 
     /*MQ Newsletter end */
+
+    footer {
+        top: 380px;
+        width: 98%;
+    }
+
+    .l-1 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+
 
 
 
