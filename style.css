@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+:root {
+    --primary-color: #FF5400;
+}
+
+
+/* Nav Header Start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px 50px 135px;
+    /* border: 2px solid red; */
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.nav-tag {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.nav-tag ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    margin-right: 135px;
+}
+
+.nav-tag ul li a {
+    text-decoration: none;
+}
+
+.hamburger {
+    width: 24px;
+    height: 24px;
+    display: none;
+}
+
+/* Nav Header End */
+
+/* Header Banner Start */
+
+.banner {
+    color: #FFF;
+    text-align: center;
+    margin: 50px 135px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/banner.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    border: none;
+    height: 500px;
+    padding-top: 106px;
+}
+
+.head-text {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.head-description {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 25px 0 50px 0;
+}
+
+
+.head-input {
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 16px;
+    display: flex;
+    gap: 6px;
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 8px;
+    /* border: 2px solid red; */
+}
+
+#find-now {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 16px;
+    margin-right: 24px;
+}
+
+.primary-btn {
+    border-radius: 8px;
+    border: none;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+}
+/* Header banner End  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px 0px 20px 15px;
+    }
+
+    .nav-tag ul {
+        gap: 0px
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    /* MQ  Head banner Start */
+
+    .banner {
+        margin: 20px;
+        padding-top: 30px;
+    }
+
+    .head-text {
+        font-size: 1.3rem;
+    }
+
+    .head-input {
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    #find-now {
+        margin: 5px;
+        width: 255px;
+        height: 52px;
+    }
+
+    /* MQ Head Banner End */
+}
