@@ -321,6 +321,28 @@ span {
     background: rgba(19, 19, 24, 0.05);
 }
 
+#up-to {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 250px;
+    right: 200px;
+}
+
+.com {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.save {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
 
 
 
@@ -460,18 +482,29 @@ span {
     /* MQ Choose us end */
     /* MQ Newsletter */
 
-    .newsletter{
+    .newsletter {
         flex-direction: column;
         left: 25px;
-        top:350px;
+        top: 350px;
         width: 495px;
     }
 
-    .newsletter img{
+    .newsletter img {
         width: 100%;
     }
 
+    #up-to {
+        width: 250px;
+        height: 80px;
+        transform: rotate(-20deg);
+        position: absolute;
+        top: 630px;
+        right: 10px;
+    }
+    .com{font-size: 0.9rem;}
+    .save{font-size: 1.1rem;}
 
+/*MQ Newsletter end */
 
 
 
