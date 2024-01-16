@@ -271,7 +271,55 @@ span {
 
 }
 
+/* Choose us End */
+/* Newsletter */
 
+.newsletter {
+    display: flex;
+    position: relative;
+    top: 120px;
+    left: 135px;
+    text-align: left;
+    gap: 24px;
+}
+
+.cn-text {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+
+.x-head {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 10px 0px 10px 15px;
+}
+
+.x-text {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    width: 350px;
+    padding: 0px 0px 20px 15px;
+}
+
+.news,
+#subscribe {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+}
+
+.news {
+    color: rgba(19, 19, 24, 0.30);
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px;
+    background: rgba(19, 19, 24, 0.05);
+}
 
 
 
@@ -401,12 +449,19 @@ span {
         width: 90%;
     }
 
-    .box-3{margin-left: 25px;}
+    .box-3 {
+        margin-left: 25px;
+    }
 
     .box-detail {
-        width:80%;
+        width: 80%;
     }
-    /* Choose us end */
+
+    /* MQ Choose us end */
+    /* MQ Newsletter */
+
+
+}
 
 
 
