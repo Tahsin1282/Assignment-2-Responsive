@@ -152,8 +152,33 @@ span {
 
 /* Popular Tours End */
 
+/* Destination Start */
+.destination{
+    margin-top: 50px;
+    text-align: center;
+}
 
+.img-set{
+    width: 81.25%;
+    margin: auto;
+    
+}
 
+.row{
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 24px;
+    
+}
+
+.row img{
+    
+    width: 100%;
+    padding: 12px;
+}
 
 
 
