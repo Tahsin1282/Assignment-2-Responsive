@@ -102,6 +102,8 @@ nav {
 }
 
 .primary-btn {
+    width: 174px;
+    height: 52px;
     border-radius: 8px;
     border: none;
     background: #FF5400;
@@ -110,7 +112,46 @@ nav {
     font-weight: 700;
     align-items: center;
 }
+
 /* Header banner End  */
+/* Popular Tours start  */
+
+.popular-tour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 135px;
+    gap:20px;
+}
+
+
+.box-head {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    /* gap: 24px;
+    margin-top: 24px; */
+}
+
+.box-text {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.box-text li {
+    margin-left: 30px;
+}
+
+span {
+    position: relative;
+    left: -10px;
+}
+
+/* Popular Tours End */
+
 
 
 
@@ -178,4 +219,23 @@ nav {
     }
 
     /* MQ Head Banner End */
+
+    /* MQ Popular Tour start */
+
+    .popular-tour {
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+    .box-head {text-align: left;}
+
+    /* MQ Popular tour end */
+
+
+
+
+
+
+
+
 }
+
