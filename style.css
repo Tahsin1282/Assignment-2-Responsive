@@ -158,10 +158,10 @@ span {
     text-align: center;
 }
 
-#des-text{
+#des-text {
     justify-content: center;
     width: 50%;
-    margin: auto ;
+    margin: auto;
 }
 
 .img-set {
@@ -169,7 +169,9 @@ span {
     margin: auto;
 }
 
-.row-1, .row-2, .row-3 {
+.row-1,
+.row-2,
+.row-3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,7 +179,9 @@ span {
     margin-top: 12px;
 }
 
-.break{display: none;}
+.break {
+    display: none;
+}
 
 .container {
     position: relative;
@@ -197,9 +201,74 @@ span {
 
 /* Choose us */
 
-.choose-us{
+.choose-us {
     position: relative;
     top: 50px;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    width: 39%;
+    height: 285px;
+    border-radius: 16px;
+    border: 1px solid;
+    margin: 50px 0px 0px 0px;
+}
+
+.box-1 {
+    margin-left: 135px;
+    margin-right: 24px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.box-2 {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.box-3 {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.choose-box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.box-icon {
+    width: 64px;
+    height: 64px;
+    position: relative;
+    top: 32px;
+    right: 200px;
+}
+
+.bx-head {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    position: relative;
+    top: 50px;
+    right: 110px;
+}
+
+.box-detail {
+    position: relative;
+    top:60px;
+    text-align: left;
+    margin-left: 40px;
+    width:50%;
+    color: #5A5A5D;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 26px;
+
 }
 
 
@@ -282,34 +351,46 @@ span {
     /* MQ Popular tour end */
     /* MQ Destination Start */
 
-    #des-text{width:80%; font-size: 0.8rem;}
-
-    .row-1, .row-2, .row-3 {flex-direction: column;}
-
-    .row-2, .row-3{
-        position: relative;
-        top:200px;
+    #des-text {
+        width: 80%;
+        font-size: 0.8rem;
     }
-    
-    .container img{
+
+    .row-1,
+    .row-2,
+    .row-3 {
+        flex-direction: column;
+    }
+
+    .row-2,
+    .row-3 {
         position: relative;
-        top:50px;
-        width:480px;
+        top: 200px;
+    }
+
+    .container img {
+        position: relative;
+        top: 50px;
+        width: 480px;
         height: 175px;
     }
 
-    .try{top:65%}
+    .try {
+        top: 65%
+    }
 
-    #des-box{text-align: center;}
+    #des-box {
+        text-align: center;
+    }
 
     /*MQ Choose us */
 
-    .choose-us{
+    .choose-us {
         position: relative;
         top: 330px;
     }
 
-        
+
 
 
 
