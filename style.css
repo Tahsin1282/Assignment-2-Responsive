@@ -260,10 +260,10 @@ span {
 
 .box-detail {
     position: relative;
-    top:60px;
+    top: 60px;
     text-align: left;
     margin-left: 40px;
-    width:50%;
+    width: 50%;
     color: #5A5A5D;
     font-size: 0.8rem;
     font-weight: 400;
@@ -389,6 +389,29 @@ span {
         position: relative;
         top: 330px;
     }
+
+    .choose-box {
+        flex-direction: column;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3 {
+        margin: 5px;
+        width: 90%;
+    }
+
+    .box-3{margin-left: 25px;}
+
+    .box-detail {
+        width:80%;
+    }
+    /* Choose us end */
+
+
+
+
+
 
 
 
