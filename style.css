@@ -460,9 +460,16 @@ span {
     /* MQ Choose us end */
     /* MQ Newsletter */
 
+    .newsletter{
+        flex-direction: column;
+        left: 25px;
+        top:350px;
+        width: 495px;
+    }
 
-}
-
+    .newsletter img{
+        width: 100%;
+    }
 
 
 
